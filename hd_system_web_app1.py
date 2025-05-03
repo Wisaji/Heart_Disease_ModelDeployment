@@ -17,7 +17,7 @@ import requests # for model access from the github repository
 
 # LOADING THE MODEL FROM  GITHUB
 # URL of the .sav file
-url = 'blob:https://github.com/b7a36dba-ed84-4e0d-89b8-9745cb924c7e'
+url = 'https://raw.githubusercontent.com/Wisaji/Heart_Disease_ModelDeployment/refs/heads/main/naive_model_trained.sav'
 
 # Download the file
 loaded_model = requests.get(url)
